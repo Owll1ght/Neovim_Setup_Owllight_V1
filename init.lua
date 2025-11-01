@@ -8,3 +8,4 @@ require("config.settings")
 
 opt.foldmethod = 'expr'
 opt.foldexpr = 'nvim_treesitter#foldexpr()'
+opt.foldlevelstart = 1
