@@ -6,6 +6,6 @@ vim.g.mapleader = ','
 require("config.lazy")
 require("config.settings")
 
-opt.foldmethod = 'expr'
-opt.foldexpr = 'nvim_treesitter#foldexpr()'
+opt.foldmethod = "expr"
+opt.foldexpr = "nvim_treesitter#foldexpr()"
 opt.foldlevelstart = 1
