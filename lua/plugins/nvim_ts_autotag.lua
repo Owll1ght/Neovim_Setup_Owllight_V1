@@ -14,6 +14,9 @@ return {
       per_filetype = {
         ["html"] = {
           enable_close = true
+        },
+        ["php"] = {
+          enable_close = true
         }
       }
     })
