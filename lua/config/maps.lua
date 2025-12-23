@@ -13,7 +13,7 @@ map("n", "<leader>w", "<CMD>update<CR>")
 map("n", "<leader>q", "<CMD>q<CR>")
 
 -- Exit insert mode
-map("i", "jk", "<ESC>")
+map("i", "``", "<ESC>")
 
 -- Neotree
 map("n", "<leader>e", "<CMD>Neotree toggle<CR>")
