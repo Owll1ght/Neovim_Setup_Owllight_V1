@@ -33,11 +33,11 @@ return {
 				objective_c = { "astyle" },
 				java = { "astyle" },
 			},
-			-- format_on_save = {
-			-- 	lsp_fallback = false,
-			-- 	async = false,
-			-- 	timeout_ms = 1000,
-			-- },
+			format_on_save = {
+				lsp_fallback = false,
+				async = false,
+				timeout_ms = 1000,
+			},
 		})
 
 		vim.keymap.set({ "n", "v" }, "<leader>fo", function()
