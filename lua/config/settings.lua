@@ -28,4 +28,3 @@ o.termguicolors = true
 o.hlsearch = false
 o.incsearch = true
 o.scrolloff = 8
-
