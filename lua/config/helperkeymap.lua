@@ -11,7 +11,8 @@ local function helperkeymap()
 	vim.notify(
 		"Telescope      : <leader>ff to open telescope, <leader>fg to open grep (makesure ripgrep is installaed), <leader>fb to open telescope buffer"
 	)
-	vim.notify("formatter      : <leader>fo to format the buffer")
+	vim.notify("Formatter      : <leader>fo to format the buffer")
+	vim.notify("In Insert Mode : 'zfk' to get back to normal mode")
 end
 
 vim.api.nvim_create_user_command("HelpRemaps", helperkeymap, {
