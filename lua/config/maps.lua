@@ -6,6 +6,8 @@ local function map(mode, lhs, rhs)
   vim.keymap.set(mode, lhs, rhs, {silent = true})
 end
 
+map("n", "<leader>fj", "<CMD>Ex<CR>")
+
 -- Save
 map("n", "<leader>w", "<CMD>update<CR>")
 
@@ -13,11 +15,11 @@ map("n", "<leader>w", "<CMD>update<CR>")
 map("n", "<leader>q", "<CMD>q<CR>")
 
 -- Exit insert mode
-map("i", "``", "<ESC>")
+map("i", "cjkj", "<ESC>")
 
 -- Neotree
-map("n", "<leader>e", "<CMD>Neotree toggle<CR>")
-map("n", "<leader>r", "<CMD>Neotree focus<CR>")
+map("n", "<leader>nt", "<CMD>Neotree toggle<CR>")
+map("n", "<leader>nf", "<CMD>Neotree focus<CR>")
 
 -- New Window
 map("n", "<leader>o", "<CMD>vsplit<CR>")

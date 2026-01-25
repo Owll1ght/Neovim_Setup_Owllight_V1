@@ -12,6 +12,6 @@ return {
       "folke/snacks.nvim",
     },
     lazy = false, -- neo-tree will lazily load itself
-    use_snacks_image = true,
+    use_snacks_image = false,
   }
 }
